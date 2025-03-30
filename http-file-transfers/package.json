@@ -1,0 +1,14 @@
+{
+  "name": "http-file-transfers",
+  "description": "Examples of HTTP transfers.",
+  "author": "m01d, iaah04",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
