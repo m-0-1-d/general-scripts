@@ -20,7 +20,7 @@ npm run dev
 
 - upload with form:
 
-Use Postman and send to the http://localhost:3033/upload-with-form form with image and name fields, where image is .jpg file and name contents text of the name.
+Use Postman and send to the http://localhost:3033/upload-with-form form with image and name fields, where image is .jpg file and name contents text of the name. Send request and find result in the **images** folder.
 
 - upload with data binary:
 

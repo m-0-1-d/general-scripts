@@ -1,9 +1,8 @@
 {
   "name": "http-file-transfers",
-  "description": "Examples of HTTP transfers.",
-  "author": "m01d, iaah04",
+  "description": "Uploading an Image to a Node.js Server Without Using Any Libraries",
+  "author": "m01d, R0bb5rt Wh1t5",
   "version": "1.0.0",
-  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
