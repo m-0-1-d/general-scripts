@@ -1,3 +1,5 @@
+"use strict";
+
 const { uploadWithForm } = require("./uploadWithForm.js");
 const { uploadWithBase64 } = require("./uploadWithBase64.js");
 const { uploadWithDataBinary } = require("./uploadWithDataBinary.js");
