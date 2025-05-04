@@ -5,15 +5,15 @@ const path = require("node:path");
 const fsp = require("node:fs").promises;
 
 (async () => {
-  const pathFile1 = path.join(__dirname, "..", "images", "test1.jpg");
-  const pathFile2 = path.join(__dirname, "..", "images", "test2.jpg");
+  const pathFile1 = path.join(__dirname, "..", "images", "test1.png");
+  const pathFile2 = path.join(__dirname, "..", "images", "test2.png");
 
   const file1 = await fsp.readFile(pathFile1);
   const file2 = await fsp.readFile(pathFile2);
 
   const data = JSON.stringify([
-    { name: "test1.jpg", content: file1.toString("base64") },
-    { name: "test2.jpg", content: file2.toString("base64") },
+    { name: "test1.png", content: file1.toString("base64") },
+    { name: "test2.png", content: file2.toString("base64") },
   ]);
   const options = {
     port: 3033,
