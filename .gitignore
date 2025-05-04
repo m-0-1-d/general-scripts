@@ -1,6 +1,9 @@
 # Operation System
 .DS_Store
 
+# Node.js
+node_modules
+
 # Development
 README2.md
 weird-translator

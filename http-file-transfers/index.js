@@ -6,25 +6,18 @@ const actions = require("./actions");
 const { STATUS_CODES, REASON_PHRASES } = require("./libs");
 
 const API_PORT = 3033;
+const HANDLERS = {
+  "/upload-with-form": actions.uploadWithForm,
+  "/upload-with-base64": actions.uploadWithBase64,
+  "/upload-with-data-binary": actions.uploadWithDataBinary,
+};
 
 http
   .createServer(async (req, res) => {
     try {
       const { url } = req;
 
-      let body = null;
-
-      switch (url) {
-        case "/upload-with-form":
-          body = await actions.uploadWithForm(req);
-          break;
-        case "/upload-with-data-binary":
-          body = await actions.uploadWithDataBinary(req);
-          break;
-        case "/upload-with-base64":
-          body = await actions.uploadWithBase64(req);
-          break;
-      }
+      const body = await HANDLERS[url](req);
 
       if (body) {
         return res.end(JSON.stringify({ status: STATUS_CODES.OK, body }));
