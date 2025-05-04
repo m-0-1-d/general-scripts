@@ -4,16 +4,10 @@
 
 ### Start
 
-Install libraries:
-
-```
-npm install
-```
-
 Run server:
 
 ```
-npm run dev
+npm run start
 ```
 
 ### Use actions
