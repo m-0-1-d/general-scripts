@@ -25,7 +25,6 @@ exports.uploadWithForm = async (req) => {
   const imageMetadataHex = Buffer.from(imageMetadata + "\r\n\r\n").toString(
     "hex"
   );
-
   const imageHexWithoutMetadata = imageHex.replace(imageMetadataHex, "");
   const imageBuffer = Buffer.from(imageHexWithoutMetadata, "hex");
   const fileName = `upload_with_form_${Date.now()}.jpg`;

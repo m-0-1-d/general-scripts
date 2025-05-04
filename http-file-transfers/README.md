@@ -21,7 +21,7 @@ npm run dev
 - upload with data binary:
 
 ```
-curl -X POST -H "Content-Type: image/jpeg" -H "X-Filename: test1.jpg" --data-binary "@test1.jpg" "http://localhost:3033/upload-with-data-binary"
+curl -X POST -H "Content-Type: image/jpeg" -H "X-Filename: test1.png" --data-binary "@test1.png" "http://localhost:3033/upload-with-data-binary"
 ```
 
 - upload with form:
