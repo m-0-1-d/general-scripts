@@ -2,6 +2,10 @@
 
 ## Usage
 
+- Node.js
+- Postman
+- curl
+
 ### Start
 
 Run server:
