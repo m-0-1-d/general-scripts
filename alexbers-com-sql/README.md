@@ -1,4 +1,4 @@
-- 'X' is what you need to replace.
+'X' is what you need to replace.
 
 **LEVEL 1**
 
