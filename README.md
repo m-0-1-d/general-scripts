@@ -9,7 +9,7 @@ separate repository, but they were fun to write and I learned something new whil
 
 - **alexbers-com-sql** - [How to Complete All Levels of the SQL Injection Challenge on alexbers.com](https://www.youtube.com/watch?v=V-gGLaEVnpg)
 
-- **zixem-altervista-org** - [How to Complete All Zixem Challenges | Part 1 «SQLi»]()
+- **zixem-altervista-org** - [How to Complete All Zixem Challenges | Part 1 «SQLi»](https://www.youtube.com/@m01d-q6j)
 
 - **punched-card**
 
