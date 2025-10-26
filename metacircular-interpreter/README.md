@@ -1,6 +1,6 @@
 # metacircular-interpreter
 
-Goal: create the simplest interpreter in Scheme Lisp.
+Goal: create the simplest interpreter in Lisp Scheme.
 
 ## Install Lisp Schema
 
@@ -21,5 +21,5 @@ brew install mit-scheme
 - Run program:
 
 ```
-mit-scheme --load hello.lsp
+mit-scheme --load main.scm
 ```
